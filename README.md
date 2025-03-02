@@ -1,4 +1,4 @@
-# LDA-Linear-Discriminant-Analysis-
+# LDA - Linear Discriminant Analysis
 
 **Linear Discriminant Analysis** (LDA) is a dimensionality reduction technique that projects data onto a lower-dimensional space while maximizing class separability.
 
