@@ -1,9 +1,15 @@
 # LDA-Linear-Discriminant-Analysis-
 
-Linear Discrimination is used in classification to separate different categories of data points using a straight line (in 2D), a plane (in 3D), or a hyperplane (in higher dimensions)
+**Linear Discriminant Analysis** (LDA) is a dimensionality reduction technique that projects data onto a lower-dimensional space while maximizing class separability.
 
-In this example, Linear Discriminant Analysis (LDA) was applied on the Iris and Wine datasets from Sklearn to classify multiple classes while reducing dimensionality. 
+This notebook applies LDA for classification on two well-known datasets: Iris and Wine. 
 
-In the Iris dataset (4 features, 3 classes), LDA achieved 100% accuracy, effectively separating Setosa, Versicolor, and Virginica flowers. 
+**Features**
 
-Similarly, in the Wine dataset (13 features, 3 classes), LDA maintained perfect classification.
+- Loads Iris and Wine datasets from sklearn.datasets.
+
+- Performs data preprocessing, including feature scaling.
+
+- Implements LDA for dimensionality reduction and classification.
+
+- Evaluates model performance using accuracy and classification reports.
